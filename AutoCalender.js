@@ -8,7 +8,7 @@ function registCalenderEvent() {
   }
   console.log(dict)
   //アクセス可能なカレンダーのIDを指定して、Googleカレンダーを取得する
-  let myCalendar = CalendarApp.getCalendarById(');
+  let myCalendar = CalendarApp.getCalendarById('');
   //Googleカレンダーに登録する日付を設定する
   let startDate = new Date();
   let endDate = new Date();
